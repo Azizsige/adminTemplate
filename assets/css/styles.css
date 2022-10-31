@@ -1,0 +1,88 @@
+.content-logo {
+  background-color: #313a46;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul.list-unstyled {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+li {
+  margin: 0 0 1rem 0;
+}
+
+.far.fa-calendar-alt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__wrapper {
+  /*margin: 2rem 0 0 0;*/
+}
+
+.logo__wrapper ul li {
+  /*margin: 0 0 1rem;*/
+}
+
+.content-text {
+  display: flex;
+  background-color: #414d5d;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+}
+
+.right-content {
+  height: max-content;
+}
+
+.nav {
+}
+
+.nav-item {
+  margin: 0;
+}
+
+/* Start Custom here */
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.d-flex.align-items-center.navbar-top {
+  width: 24rem;
+  justify-content: space-between;
+}
+
+.wrapper.d-flex {
+  width: 8rem;
+  justify-content: space-between;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: -8rem;
+  margin-top: 0.125rem;
+}
+
+.text-user {
+  margin: 0 0.5rem !important;
+}
+
+.badges-notif {
+  font-size: 10px !important;
+  width: max-content;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
