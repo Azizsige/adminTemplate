@@ -128,12 +128,50 @@ input.form-control {
   border: none;
 }
 
+.accordion li {
+  width: 100%;
+}
+
+.accordion li .dummy {
+  margin: 0 0.5rem !important;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+.accordion li .dummy:hover {
+  background-color: #774e20f7;
+}
+
+.accordion li .dummy:hover a {
+  color: #fff !important;
+}
+
 .accordion-button {
-  padding: 1rem 0.5rem !important;
+  padding: 0.5rem !important;
+}
+
+.accordion-button.w-100 {
+  width: 17rem !important;
+  border-radius: 5px;
+}
+
+.accordion-button.w-100:hover {
+  background-color: #774e20f7;
+}
+
+.accordion-button.w-100:hover a {
+  color: #fff !important;
 }
 
 .accordion-button:not(.collapsed) {
-  color: #000;
-  background-color: #fff;
+  background-color: #774e20f7;
   box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) a {
+  color: #fff !important;
+}
+
+.accordion-body a:hover {
+  font-weight: 500;
 }
