@@ -1,7 +1,7 @@
 .content-logo {
   background-color: #313a46;
   height: 100vh;
-  width: 45px;
+  width: 33px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,10 +26,11 @@ li {
 
 .wrapper-sidebar li {
   padding: 0.5rem;
+  box-shadow: 0 0 0px transparent;
 }
 
 .wrapper-sidebar li:hover {
-  background-color: #1d222a;
+  box-shadow: 0 0 7px #1d222a;
 }
 
 .content-text {
