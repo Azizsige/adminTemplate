@@ -90,6 +90,21 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   justify-content: space-between;
 }
 
+.content-text.show {
+  width: 0 !important;
+}
+
+.content-text {
+  padding: 0;
+  background: transparent;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 6px 0px 10px var(--bs-gray-200);
+}
+
+.content-text.hidden {
+  width: max-content !important;
+}
+
 .dropdown-menu[data-bs-popper] {
   top: 100%;
   left: 0;
