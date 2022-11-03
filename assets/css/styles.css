@@ -85,12 +85,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   padding: 1rem 1rem 1rem 0;
 }
 
-.d-flex.align-items-center.navbar-top {
-  width: 24rem;
-  justify-content: space-between;
-}
-
-.content-text.show {
+.content-text.hidden {
   width: 0 !important;
 }
 
@@ -101,7 +96,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   box-shadow: 6px 0px 10px var(--bs-gray-200);
 }
 
-.content-text.hidden {
+.content-text.show {
   width: max-content !important;
 }
 
@@ -109,15 +104,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   top: 100%;
   left: 0;
   margin-top: 1.125rem;
-}
-
-.wrapper.d-flex {
-  width: 8rem;
-  justify-content: space-between;
-}
-
-.text-user {
-  margin: 0 0.5rem !important;
 }
 
 .badges-notif {
@@ -189,4 +175,46 @@ input.form-control {
 
 .accordion-body a:hover {
   font-weight: 500;
+}
+
+/* navbar-right-top */
+.icons {
+  font-size: 14px !important;
+}
+
+.d-flex.align-items-center.navbar-top {
+  width: 12rem;
+  justify-content: flex-end;
+}
+
+.text-user {
+  margin: 0 0.5rem !important;
+  display: none;
+}
+
+.wrapper.d-flex {
+  width: 6rem;
+  justify-content: space-between;
+  margin-right: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .icons {
+    font-size: auto !important;
+  }
+
+  .d-flex.align-items-center.navbar-top {
+    width: 24rem;
+    justify-content: space-between;
+  }
+
+  .text-user {
+    display: block;
+  }
+
+  .wrapper.d-flex {
+    width: 8rem;
+    justify-content: space-between;
+    margin-right: auto;
+  }
 }
