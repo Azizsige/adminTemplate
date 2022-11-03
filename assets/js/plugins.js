@@ -5,7 +5,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl);
 });
 var tooltipTriggerListTwo = [].slice.call(
-  document.querySelectorAll('[data-bs-toggle="tab tooltip"]')
+  document.querySelectorAll('[data-tooltip="tooltip"]')
 );
 var tooltipList = tooltipTriggerListTwo.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl);

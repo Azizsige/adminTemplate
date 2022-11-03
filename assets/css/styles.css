@@ -74,6 +74,7 @@ main {
 }
 
 .nav {
+  background-color: #e9ecef;
 }
 
 .nav-item {
@@ -81,12 +82,26 @@ main {
 }
 
 /* Start Custom here */
-nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-  padding: 1rem 1rem 1rem 0;
+
+.navbar-top {
+  background-color: #774e20f7 !important;
+}
+
+.navbar-bottom {
+  height: 2rem !important;
 }
 
 .content-text.hidden {
   width: 0 !important;
+}
+
+.input input {
+  height: 1.5rem;
+  line-height: 0 !important;
+}
+.input button {
+  height: 1.5rem;
+  line-height: 0 !important;
 }
 
 .content-text {

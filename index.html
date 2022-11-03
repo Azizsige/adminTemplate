@@ -245,11 +245,10 @@
               Inventory
             </h5>
             <div>
-              <div class="input-group">
+              <div class="input d-flex align-items-center">
                 <input
                   class="form-control"
                   type="text"
-                  style="width: 113px;"
                   placeholder="type your query here"
                 /><button type="submit">Search</button>
               </div>
@@ -269,7 +268,8 @@
                     <a
                       class="nav-link active"
                       role="tab"
-                      data-bs-toggle="tab tooltip"
+                      data-bs-toggle="tab"
+                      data-tooltip="tooltip"
                       data-bs-placement="bottom"
                       title="Tooltip on right"
                       href="#tab-1"
@@ -289,7 +289,8 @@
                     <a
                       class="nav-link"
                       role="tab"
-                      data-bs-toggle="tab tooltip"
+                      data-bs-toggle="tab"
+                      data-tooltip="tooltip"
                       data-bs-placement="bottom"
                       title="Tooltip on right"
                       href="#tab-2"
@@ -308,7 +309,8 @@
                     <a
                       class="nav-link"
                       role="tab"
-                      data-bs-toggle="tab tooltip"
+                      data-bs-toggle="tab"
+                      data-tooltip="tooltip"
                       data-bs-placement="bottom"
                       title="Tooltip on right"
                       href="#tab-3"
@@ -327,7 +329,8 @@
                     <a
                       class="nav-link"
                       role="tab"
-                      data-bs-toggle="tab tooltip"
+                      data-bs-toggle="tab"
+                      data-tooltip="tooltip"
                       data-bs-placement="bottom"
                       title="Tooltip on right"
                       href="#tab-3"
@@ -731,7 +734,7 @@
       </div>
       <div class="right-content" style="background: #7634f9; width: 100%;">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-top">
           <!-- Container wrapper -->
           <div class="container-fluid justify-content-between">
             <!-- Toggle button -->
@@ -748,7 +751,7 @@
               <div class="wrapper d-flex">
                 <!-- Icon -->
                 <a class="text-reset me-3 position-relative" href="#">
-                  <i class="fas fa-bell fs-3 icon-1 icons"></i>
+                  <i class="fas fa-bell fs-3 icon-1 icons text-white"></i>
                   <p
                     class="fs-6 badges-notif position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning"
                   >
@@ -757,7 +760,7 @@
                   </p>
                 </a>
                 <a class="text-reset me-3 position-relative" href="#">
-                  <i class="fas fa-cog fs-3 icon-2 icons"></i>
+                  <i class="fas fa-cog fs-3 icon-2 icons text-white"></i>
                   <div
                     class="fs-6 badges-notif position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger"
                   >
@@ -768,7 +771,7 @@
 
                 <!-- Notifications -->
                 <a href="#" class="text-reset position-relative">
-                  <i class="fas fa-user-tie fs-3 icon-3 icons"></i>
+                  <i class="fas fa-user-tie fs-3 icon-3 icons text-white"></i>
                   <p
                     class="fs-6 badges-notif position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
                   >
@@ -809,7 +812,7 @@
                     alt=""
                     loading="lazy"
                   />
-                  <p class="text-user">Odading Mang Oleng</p>
+                  <p class="text-user text-white">Odading Mang Oleng</p>
                 </div>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -825,7 +828,9 @@
           <!-- Container wrapper -->
         </nav>
         <!-- Navbar --><!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav
+          class="navbar navbar-expand-lg navbar-light navbar-bottom bg-light"
+        >
           <!-- Container wrapper -->
           <div class="container-fluid">
             <!-- Toggle button -->
