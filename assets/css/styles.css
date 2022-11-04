@@ -236,6 +236,10 @@ a#dropdownMenuLink {
   margin: 0 3rem 0 0 !important;
 }
 
+.bottom-right .nav-item {
+  margin: 0 10px 0 0 !important;
+}
+
 .fas.fa-star {
   color: #e9ecef;
 }
