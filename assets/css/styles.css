@@ -85,6 +85,7 @@ main {
 
 .navbar-top {
   background-color: #774e20f7 !important;
+  height: 2rem;
 }
 
 .navbar-bottom {
@@ -135,6 +136,8 @@ input.form-control {
 
 .logo__wrapper li.nav-item {
   height: 39px;
+  width: 5rem;
+  text-align: center;
   margin: 0 0 0.5rem;
 }
 
@@ -220,7 +223,7 @@ input.form-control {
 
   .d-flex.align-items-center.navbar-top {
     width: 24rem;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 
   .text-user {
