@@ -113,7 +113,7 @@ main {
 }
 
 .content-text.show {
-  width: max-content !important;
+  width: 14rem;
 }
 
 .dropdown-menu[data-bs-popper] {
@@ -131,7 +131,7 @@ main {
 }
 
 input.form-control {
-  width: 188px !important;
+  width: 8rem !important;
 }
 
 .logo__wrapper li.nav-item {
@@ -139,6 +139,14 @@ input.form-control {
   width: 5rem;
   text-align: center;
   margin: 0 0 0.5rem;
+}
+
+.tab-content .accordion {
+  margin: 0.5rem 0 0 0 !important;
+}
+
+.tab-content .accordion li {
+  margin: 0 0 0.5rem 0;
 }
 
 .accordion-item {
@@ -214,6 +222,22 @@ input.form-control {
   width: 6rem;
   justify-content: space-between;
   margin-right: 1.5rem;
+}
+
+/* navbar-bottom */
+a#dropdownMenuLink {
+  width: 9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-bottom .nav-item {
+  margin: 0 3rem 0 0 !important;
+}
+
+.fas.fa-star {
+  color: #e9ecef;
 }
 
 @media (min-width: 1024px) {
