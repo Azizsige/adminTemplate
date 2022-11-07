@@ -85,11 +85,11 @@ main {
 
 .navbar-top {
   background-color: #774e20f7 !important;
-  height: 2rem;
+  height: 2.8rem;
 }
 
 .navbar-bottom {
-  height: 2rem !important;
+  height: 2.8rem !important;
 }
 
 .content-text.hidden {
@@ -119,6 +119,12 @@ main {
 .dropdown-menu[data-bs-popper] {
   top: 100%;
   left: 0;
+  margin-top: 1.125rem;
+}
+
+.help-dropdown[data-bs-popper] {
+  top: 100%;
+  left: -7rem;
   margin-top: 1.125rem;
 }
 
@@ -178,7 +184,7 @@ input.form-control {
 }
 
 .accordion-button.w-100 {
-  width: 17rem !important;
+  width: 100% !important;
   border-radius: 5px;
 }
 
@@ -201,6 +207,11 @@ input.form-control {
 
 .accordion-body a:hover {
   font-weight: 500;
+}
+
+.tab-content {
+  overflow-y: scroll;
+  height: 55rem;
 }
 
 /* navbar-right-top */
