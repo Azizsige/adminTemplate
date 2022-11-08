@@ -71,6 +71,7 @@ main {
 
 .right-content {
   height: max-content;
+  overflow: hidden;
 }
 
 .nav {
@@ -102,7 +103,12 @@ main {
   height: 1.5rem;
   line-height: 0 !important;
   width: 8rem;
+  margin: 0 3px 0 0;
   font-size: 12px;
+}
+
+.d-flex.left-content {
+  position: sticky !important;
 }
 
 .input input:focus {
@@ -113,6 +119,10 @@ main {
 .input button {
   height: 1.5rem;
   line-height: 0 !important;
+}
+
+.input__search {
+  background-color: #774e20f7 !important;
 }
 
 .content-text {
@@ -245,7 +255,7 @@ input.form-control {
 
 .tab-content {
   overflow-y: scroll;
-  height: 55rem;
+  height: 85vh;
 }
 
 /* navbar-right-top */
@@ -306,6 +316,11 @@ a#dropdownMenuLink {
   top: 100% !important;
   left: -7rem !important;
   margin-top: 0.125rem !important;
+}
+
+.content {
+  overflow-y: scroll;
+  height: 85vh;
 }
 
 @media (min-width: 1024px) {
